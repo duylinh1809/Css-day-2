@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background >.example1,.example2,.example3 {
+    height: 50px;
+    background-color: red;
+    padding: 20px;
+    border: 5px dotted black;
+    margin: 10px;
+}
+
+.example1 {
+    background-clip: border-box;
+}
+
+.example2 {
+    background-clip: padding-box;
+}
+
+.example3 {
+    background-clip: content-box;
+}

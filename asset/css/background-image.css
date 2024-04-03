@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.example1 {
+    height: 500px;
+    background-color: red;
+    background-image: url("../image/demo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
